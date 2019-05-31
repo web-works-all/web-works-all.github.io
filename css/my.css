@@ -1,0 +1,52 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+
+body
+{/*font-family: 'Amarante', cursive;*/font-family: 'Arima Madurai', cursive; }
+
+.color1{background-color:#FC6;}
+.color2{background-color:#9C9;}
+.color3{background-color:#0CF;}
+
+.marg1{margin-top:20px;}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0 rgba(38, 143, 255, 0);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 1);
+   background-color:#FC6;
+  
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+ color: rgba(255, 255, 255, 1);
+   background-color:#FC6;
+}
+
+
+.backpicc{
+		background-image:url(../images/slider3.jpg);
+	background-position:center center; background-size:cover;
+height:80vh;
+	}
+
+.pos{position:relative; }
+.overlap{width:100%; height:100%; background-color:rgba(0,0,0,.0); color:rgba(255,255,255,0);
+position:absolute; left:0; top:0; transition:all 1s;}
+.overlap h2{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
+.pos:hover .overlap{background-color:rgba(0,0,0,.8); color:rgba(255,255,255,1);}
+.pos img{transition:all 1s;}
+.pos:hover img{transform:scale(.9);}
+
+
+
+
+
+
+
