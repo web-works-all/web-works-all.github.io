@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YUM YUM RESAURANT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link rel="shortcut icon" type="image" href="img/fav.png">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">    
+<!--------css file---->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/animate.css" rel="stylesheet">    
+<link rel="stylesheet" href="style.css">    
+    </head>
+ <body>
+
+<section id="header">
+<div class="menu-bar ">
+  
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="menu.html">FOOD MENU</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="conatc%20us.html">CONTACT US</a>
+      </li>
+        
+            <li>
+        <div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <a href="#"><i class="fa fa-sign-in" aria-hidden="true"  data-toggle="modal" data-target="#myModal"></i></a>          
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+          <div class="container">
+  <h2>Stacked form</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    
+  </form>
+</div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+        </li>
+        
+        
+      </ul>
+      
+      
+      
+  </div>
+</nav>    
+</div>     
+     </section>     
+    
+    
+   
+<!-----header slider--->     
+     
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/b1.jpg" alt="First slide">
+         <div class="carousel-caption d-none d-md-block">
+    <h1 class="animated fadeInDownBig" style="animation-delay: 1s">here the food's as good as the root beer</h1><h2 class="animated bounceInRight" style="animation-delay: 1s"><p><a href="#" class="btn btn-outline-danger px-5 py-3">BOOK TABLE</a></p></h2>  
+             
+    
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/b2.jpg" alt="Second slide">
+         <div class="carousel-caption d-none d-md-block">
+    <h1 class="animated bounceInRight" style="animation-delay: 1s"> reserv your table</h1>
+    <h2 class="animated bounceInRight" style="animation-delay: 1s"><p><a href="#" class="btn btn-outline-danger px-5 py-3">BOOK TABLE</a></p></h2>         
+    
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/b3.jpg" alt="Third slide">
+         <div class="carousel-caption d-none d-md-block">
+    <h1 class="animated zoomInUp" style="animation-delay: 1s">It's good mood food</h1>
+             <h2 class="animated bounceInRight" style="animation-delay: 1s"><p><a href="#" class="btn btn-outline-danger px-5 py-3">BOOK TABLE</a></p></h2>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+     
+</div>
+   
+
+<!-------reserved table---->
+    
+<div class="search-hotel text-center">
+<h1 class="book">Book Your Table</h1>    
+<input type="text" class="form-control" placeholder="name"> 
+<input type="tel" class="form-control" placeholder="phone"> 
+<input type="week" class="form-control" placeholder="M/D/YYY"> 
+<input type="time" class="form-control" placeholder="Time">
+<select name=""  class="form-control">
+<option value="">Person</option>
+<option value="">1</option>
+<option value="">2</option>
+<option value="">3</option>
+<option value="">4+</option>
+</select>    
+<a href="#" class="btn btn-outline-danger px- py-2">BOOK TABLE</a>
+</div>     
+ 
+     
+     
+<!-------reserved table----> 
+     
+
+<section class="special container-fluid">
+<div class="row">
+<div class="col-md-6"><br><br><br><br>
+<h1 class="text-center">Welcome To <em class="text-danger"> Yum-Yum Resturant</em></h1>
+ <p class="text-justify">We are delighted that you have selected our hotel.On behalf of the entire team at the Hotel Name,I extend you a very warm welcome and trust your stay with us will be both enjoyable and comfortable.The hotel offers a selection of business services and facilities which are detailed in the booklet, placed on the writing table in your room.&#8230;a culinary delight.<br />
+     Now a franchise opportunity in your city.</p>
+<a href="#" class="btn btn-outline-danger px-4 py-2">JOIN US</a>    
+</div>
+
+<div class="col-md-6">
+<h1 class="animated bounceInRight" style="animation-delay: 1s">    
+    <img class="d-block w-100" src="img/welcome.png"></h1>
+</div>     
+</div>      
+</section>      
+     
+     
+     
+     
+     
+     
+     
+ <!-------our special---->    
+<br>
+<section class="special container-fluid bg-light">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+ <div class="carousel slide" data-ride="carousel" data-interval="1500">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/beer.png" class="img-fluid" alt="Responsive image">
+         
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/kvass.png" class="img-fluid" alt="Second slide">
+         
+    </div>
+    <div class="carousel-item">
+    <img class="d-block w-100" src="img/cake.png" class="img-fluid" alt="Third slide">
+    </div>
+ <div class="carousel-item">
+    <img class="d-block w-100" src="img/cof.png" class="img-fluid" alt="Third slide">
+    </div>
+<div class="carousel-item">
+    <img class="d-block w-100" src="img/waw.png" class="img-fluid" alt="Third slide">
+    </div>
+<div class="carousel-item">
+    <img class="d-block w-100" src="img/ice.png" class="img-fluid" alt="Third slide">
+    </div>      
+<div class="carousel-item">
+    <img class="d-block w-100" src="img/ice1.png" class="img-fluid" alt="Third slide">
+    </div>
+<div class="carousel-item">
+    <img class="d-block w-100" src="img/san.png" class="img-fluid" alt="Third slide">
+    </div>    
+<div class="carousel-item">
+    <img class="d-block w-100" src="img/wine.png" class="img-fluid" alt="Third slide">
+    </div>    
+<div class="carousel-item">
+    <img class="d-block w-100" src="img/bug.png" class="img-fluid" alt="Third slide">
+    </div>          
+      
+</div>
+   
+</div>
+</div>
+
+<div class="col-md-6">
+<p class="h1 text-center"><span class="text-danger">Our</span> Special</p>
+<img class="d-block w-100" src="img/bdr.png">
+<br>    
+<p class="text-justify">Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together. No matter what culture, everywhere around the world, people get together to eat.Food, to me, is always about cooking and eating with those you love and care for.
+
+</p> 
+<a href="#" class="btn btn-outline-danger px-4 py-2">BOOK TABLE</a>    
+</div>     
+    
+</div>    
+</div>     
+</section>     
+     
+<!-------our special end----> 
+     
+     
+<section class="serv" id="serv">
+<div class="content-box">
+<div class="container">
+<h1 class="animated bounceInRight" style="animation-delay: 0s" ><span class="text-danger">OUR</span> SERVICES</h1>     
+<div class="row text-center">
+<div class="col-md-4">
+<div class="serv-item">
+<h2 class="animated bounceInLeft" style="animation-delay: 1s"><i class="fa fa-home" aria-hidden="true"></i></h2>	
+	<h3><em><span class="text-danger">Largest Hotel</span></em></h3>
+<p>If you consider that it would be useful to include additional information, please
+let us know by filling in the questionnaire or the form at our website at contact
+section</p>
+</div>	
+</div>
+
+<div class="col-md-4">
+<div class="serv-item">
+<h2 class="animated fadeInDownBig" style="animation-delay: 1s"><i class="fa fa-globe" aria-hidden="true"></i></h2>
+<h3><em><span class="text-danger">Longest Destinations</span></em></h3>
+<p>If you consider that it would be useful to include additional information, please
+let us know by filling in the questionnaire or the form at our website at contact
+section</p>
+</div>	
+</div>
+
+
+<div class="col-md-4">
+<div class="serv-item">
+<h2 class="animated fadeInRightBig" style="animation-delay: 1s"><i class="fa fa-cutlery" aria-hidden="true"></i></h2>
+<h3><em><span class="text-danger">Tasty Food</span></em></h3>
+<p>If you consider that it would be useful to include additional information, please
+let us know by filling in the questionnaire or the form at our website at contact
+section</p>
+</div>	
+</div>
+
+<div class="col-md-4">
+<div class="serv-item">
+<h2 class="animated wobble" style="animation-delay: 1s"><i class="fa fa-bed" aria-hidden="true"></i></h2>
+<h3><em><span class="text-danger">Modern rooms</span></em></h3>
+<p>If you consider that it would be useful to include additional information, please
+let us know by filling in the questionnaire or the form at our website at contact
+section</p>
+</div>	
+</div>
+
+<div class="col-md-4">
+<div class="serv-item">
+<h2 class="animated wobble" style="animation-delay: 1s"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></h2>
+<h3><em><span class="text-danger">24x7 Customer Support</span></em></h3>
+<p>If you consider that it would be useful to include additional information, please
+let us know by filling in the questionnaire or the form at our website at contact
+section</p>
+</div>	
+</div>
+    
+<div class="col-md-4">
+<div class="serv-item">
+<h2 class="animated wobble" style="animation-delay: 1s"><i class="fa fa-users" aria-hidden="true"></i></h2>
+<h3><em><span class="text-danger">100% satisfied customers</span></em></h3>
+<p>If you consider that it would be useful to include additional information, please
+let us know by filling in the questionnaire or the form at our website at contact
+section</p>
+</div>	
+</div>
+    
+ 
+
+</div>
+</div>
+</div>
+</section>     
+     
+     
+     
+ 
+  
+
+<section class="mobile">
+<h3 class="text-center">HOW IT WORKS AS SIMPLE AS 1,2,3</h3>
+<div class="container">
+<div class="row">
+<div class="col-md-8">   
+<div class="works-step">
+<div>1</div>    
+<p>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+</p> <div>2</div>    
+<p>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+</p>    <div>3</div>    
+<p>
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+</p> 
+<a href=""><img src="img/google-play-.png"></a>
+<a href=""><img src="img/Download_on_the_App_Store_Badge.svg"></a>    
+ 
+</div>    
+</div>    
+<div class="col-md-4">
+<div classs="pic">
+    <img src="img/iphone_PNG.png"></div>    
+</div>    
+</div>    
+</div> 
+</section>
+     
+<!------counter part----->     
+<section class="stat" id="stats">
+<div class="content-box">
+<br><br>
+<div class="container">
+<div class="row text-center">
+<div class="col-md-3">
+<div class="stat-item">
+<h2 class="animated bounceInLeft" style="animation-delay: 1s"><i class="fa fa-eye" aria-hidden="true"></i></h2>	
+<h2><span class="counter text-center">3200</span><span>+</span></h2>
+<p>VIEWS</p>	
+</div>	
+</div>
+
+<div class="col-md-3">
+<div class="stat-item">
+<h2 class="animated fadeInDownBig" style="animation-delay: 1s"><i class="fa fa-comments-o" aria-hidden="true"></i></h2>
+<h2><span class="counter text-center">3200</span><span>+</span></h2>
+<p>FEEDBACK</p>	
+</div>	
+</div>
+
+
+<div class="col-md-3">
+<div class="stat-item">
+<h2 class="animated fadeInRightBig" style="animation-delay: 1s"><i class="fa fa-facebook-square" aria-hidden="true"></i></h2>
+<h2><span class="counter text-center">5000</span><span>+</span></h2>
+<p>Worldwide Fam</p>	
+</div>	
+</div>
+
+<div class="col-md-3">
+<div class="stat-item">
+<h2 class="animated wobble" style="animation-delay: 1s"><i class="fa fa-male" aria-hidden="true"></i></h2>
+<h2><span class="counter text-center">3200</span><span>+</span></h2>
+<p>TOTAL CUSTMER</p>	
+</div>	
+</div>
+
+</div>
+</div>
+</div>
+</section>      
+
+<!---------counter part end---->     
+
+   
+<!-------testimonial start---->
+<div class="slideshow-container">
+<h1 class="text-center">what our custmer say about us</h1>
+  
+  <div class="mySlides">
+  <h5>I love you the more in that I believe you had liked me for my own sake and for nothing else</h5>
+    <p class="author">- Y.ADITITYANATH</p>
+  </div>
+
+  <div class="mySlides">
+    <h5>But man is not made for defeat. A man can be destroyed but not defeated.</h5>
+    <p class="author">- S.SWAMI</p>
+  </div>
+
+  <div class="mySlides">
+    <h5>I have not failed. I've just found 10,000 ways that won't work.</h5>
+    <p class="author">- N.MODI</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-------testimonial end---->   
+     
+     
+     
+     
+     
+     
+<!---------footer start---->      
+  
+<div id="footer-outer"  data-cols="1" data-disable-copyright="true" data-using-bg-img="true" data-bg-img-overlay="0.1" data-full-width="false" data-using-widget-area="true" style="background-color:gray;">
+<div class="container">
+<div class="row">
+<div class="col span_12">
+				      <!-- Footer widget area 1 -->
+<div class="textwidget"><p><span style="font-size: 12px;"><strong>© 2017. All Rights Reserved. Sunil Rawat Management Services Pvt. Ltd.</strong></span></p>
+<div style="font-size: 10px; line-height: 16px;"><strong>Disclaimer:</strong> “The management of Moti Mahal Delux Management services Pvt. Ltd. are not liable or responsible for the defaults or breaches of the franchisees or any deficiency in the service of the franchisee. Any promotional schemes are independently formulated by the respective franchisees without the association of the management of the Moti Mahal Delux management services Pvt.Ltd. The management of Moti Mahal Delux management services Pvt. ”</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+	
+	
+<!---------footer end----> 
+     
+     
+     
+     
+     
+     
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>    
+<!--------------script file------>
+     
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   
+<script src="main.js"></script>     
+</body>     
+</html>

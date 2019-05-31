@@ -1,0 +1,271 @@
+
+/* top header fontawsom */
+.faw{
+	color:yellow;
+	margin-right:10px;
+	padding:0px;
+	
+}
+/*...........Nav li ............. */
+.navbar-light .navbar-nav .nav-link {
+  	color:#1c1f4c;
+	font-size:1.rem;
+	font-weight:500;
+	transition:all .5s;
+	margin-left:10px;
+	padding:10px;
+	border:2px solid transparent;
+	
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  	color:;
+	border:2px solid #037272;
+	border-radius:5px;
+}
+
+/*...........Nav active ............. */
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  	font-weight:700;
+	color:;
+	border:2px solid #037272;
+	border-radius:5px;
+}
+
+/* ------ slider ------ */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height:auto;
+  overflow: hidden;
+}
+.carousel-caption {
+   bottom:100px;
+}
+.carousel-item img{
+	width:100%;
+	height:100%;
+}
+
+.img-sz{
+	min-width:100%;
+	height:400px;
+}
+
+
+
+/* ------ appointment container ------ */	
+.bgcont{
+	background-color:#1c1f4c;
+}
+.heading-size{
+	font-size:45px;
+}
+
+/* ------ welcom container ------ */	
+.faw2{
+	color:#1c1f4c;
+}
+
+/* ------ section counter ------ */
+
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+
+/* ------ gallery sec ------ */
+.mycol{
+	position: relative;
+	overflow: hidden;	
+}
+.overlape{
+	max-width:100%;
+	position: absolute;
+	background-color:rgba(0,0,0,0);
+	left:10px;
+	right:10px;
+	top:10px;
+	bottom:10px;
+	transition: all 1s ease-in-out;
+}
+.overlape p{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:rgba(255,255,255,1);
+	display:none;
+	
+}
+.overlape:hover p{
+	display:block;
+}
+.mycol:hover img{
+	transform:scale(1.1);
+	transition: all 1s ease-in-out;
+	opacity:.7;
+}
+
+.mycol img{transition:all 1s ease-in-out}
+
+.mycol:hover .overlape{
+	background-color:rgba(0,0,0,.5);
+	transform:scale(0.8);
+	display:block;
+	
+}
+
+
+
+/* ------ testmonials ------ */
+.test-img{
+	border-radius: 50%;
+	max-width:100px;
+}
+
+.jumbotron-fluid{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/slider3.jpg);
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+.jumbotron {
+ 
+    margin-bottom: 0rem;
+ 
+}
+@media (max-width: 575.98px) {
+	.test-m-h{
+		font-size:35px;
+	}
+	.test-para{
+		text-align: center;
+		font-size: 14px;
+		
+	}
+}
+/* ------ news letter ------ */
+.newsletterinput{
+	width:300px;
+}
+@media (max-width: 575.98px) {
+	.subinput{
+		width:250px;
+		display: inline-block;
+	}
+	
+}
+
+/* ------ footer ------ */
+
+.nav-link {
+    display: block;
+    padding: .2rem 0rem;
+	color:whitesmoke;
+}
+.nav-link:hover{
+	color:#ffffff;
+	font-weight:400;
+}
+
+.social i{
+	color:#ffffff;
+	margin-right:10px;
+	
+}
+.social i:hover{
+	color:darkorange;
+	cursor: pointer
+}
+
+.lead-footer {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+.to-top{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	font-size:30px;
+	color:yellow; 
+	display:none;
+}
+
+/* ------end home page ------ */
+
+
+/* ------ about ------ */
+
+.aboutbg{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/about2.jpg);
+	background-position: center center;
+	padding:100px 0px;
+	background-repeat: no-repeat
+}
+
+/* ------ top banner linkes------ */
+a {color: #ffffff; }
+a:hover{color:yellow;text-decoration: none}
+
+.actv{
+	border-bottom:2px solid yellow;
+	padding-bottom: 5px;
+}
+
+.faw-abt{color:#1c1f4c}
+
+
+/* ------ departmebt page------ */
+.deptbg{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/department.jpg);
+	background-position: center center;
+	padding:100px 0px;
+	background-repeat: no-repeat
+}
+
+/* ------ contact page------ */
+.contbg{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/12.jpg);
+	background-position: center center;
+	padding:100px 0px;
+	background-repeat: no-repeat
+}
+
+.formpadding{
+	padding-left:200px;
+	padding-right:200px;
+}
+@media (max-width: 575.98px) {
+	.formpadding{
+		padding-left:0px;
+		padding-right:0px;
+	}	
+}
+@media (max-width: 991.98px) { 
+	.formpadding{
+		padding-left:0px;
+		padding-right:0px;
+	}	
+}
+
+
+/* ------ services page------ */
+.servbg{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/services.jpg);
+	background-position:center center;
+	padding:100px 0px;
+	background-repeat: no-repeat
+}
+.para2{display:none;}
+
+
+
+.footersearch{
+	width:160px !important;
+}
+
+
